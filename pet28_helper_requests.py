@@ -24,7 +24,7 @@ for i in range(1, 5):
             continue
         if "wechat" in detail["content"].lower():
             continue
-        link = "https://pet28.com/pet/cat/95981/" + str(id) + "/"
+        link = "https://pet28.com/pet/cat/" + str(detail["id"])
         candidate = {
             "id": detail["id"],
             "name": detail["title"],
